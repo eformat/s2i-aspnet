@@ -10,5 +10,5 @@
 # We will also specify the default port on which it should listen.
 #exec /usr/sbin/nginx -g "daemon off;"
 #ENTRYPOINT ["dnx", "-p", "source/project.json", "Microsoft.AspNet.Server.Kestrel", "--server.urls", "http://0.0.0.0:5000"]
-#dnx -p /tmp/src/project.json Microsoft.AspNet.Server.Kestrel --server.urls http://0.0.0.0:5000
-dnx -p /tmp/src/project.json web --server.urls http://0.0.0.0:5000
+dnx -p /tmp/src/project.json Microsoft.AspNet.Server.Kestrel --server.urls http://0.0.0.0:5000
+
