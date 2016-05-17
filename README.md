@@ -71,3 +71,4 @@ and now build the application
     oc new-app --image-stream=aspnet/aspapp --code=https://github.com/eformat/s2i-aspnet --context-dir=source --name=aspnet-app --strategy=source
     oc expose svc/aspnet-app --hostname=microsoft-loves-linux.apps.hpteams.com
 
+    
